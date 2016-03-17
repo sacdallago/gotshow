@@ -69,11 +69,9 @@ body {
 
 .cloud {
 	position: absolute;
-	opacity: .6;
-	min-width: 120%;
-	max-width: 120%;
+	opacity: .4;
 	min-height: 100%;
-	width: 120%;
+	min-width: 100%;
 	z-index: -100;
 	background:url('cloud3.png');
 	background-size: cover;
@@ -83,16 +81,13 @@ body {
 
 .cloud2 {
 	position: absolute;
-	opacity: .6;
-	min-width: 120%;
-	max-width: 120%;
+	opacity: .4;
 	min-height: 100%;
-	width: 120%;
+	min-width: 100%;
 	z-index: -200;
 	background:url('cloud3.png');
 	background-size: cover;
 	right: -100%;
-    bottom: -10%;
 	animation: rightleft 220s infinite;
 }
 
