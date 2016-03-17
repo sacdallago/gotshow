@@ -73,8 +73,8 @@ body {
 	min-height: 100%;
 	min-width: 100%;
 	z-index: -100;
-	background:url('cloud3.png');
-	background-size: cover;
+	background:url('cloud3.png') no-repeat;
+	background-size: contain;
 	left: -100%;
 	animation: leftright 300s infinite;
 }
@@ -85,9 +85,10 @@ body {
 	min-height: 100%;
 	min-width: 100%;
 	z-index: -200;
-	background:url('cloud3.png');
-	background-size: cover;
+	background:url('cloud3.png') no-repeat;
+	background-size: contain;
 	right: -100%;
+    top: -10%;
 	animation: rightleft 220s infinite;
 }
 
